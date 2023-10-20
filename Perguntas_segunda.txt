@@ -1,0 +1,71 @@
+1 - Pergunta: Qual é a finalidade da declaração em um documento HTML? Qual é sua importância?
+    
+    R: Especificar a versão do HTML que esta sendo usada, para que o navegar rode corretamente
+
+2 - O que são elementos HTML? Explique brevemente o conceito.
+
+    R: São funções de uma pagina web, são usados para definir a estrutura e o conteúdo da pagina web
+
+3 - Em HTML, como os elementos são estruturados geralmente? Descreva a estrutura básica de um documento HTML, incluindo as tags de abertura e fechamento.
+
+    R: <!DOCTYPE html>
+    <html>
+        <head>
+            <title>Titulo</title>
+        </head>
+        <body>
+            <h1>cabeçalho</h1>
+            <p>parágrafo.</p>
+        </body>
+    </html>
+
+4 - O que são atributos em HTML e onde eles são normalmente encontrados em um elemento HTML? Dê um exemplo de um elemento HTML com atributos.
+
+    R: São informaçôes adicionais de um certo elemento, como por exemplo:
+        
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Youtube<a/>
+    
+        O atributo "href" defini uma URL especifica pra onde o link "Youtube" deve levar
+
+5 - O que são elementos vazios em HTML? Forneça alguns exemplos de elementos vazios e explique por que eles são considerados vazios
+
+    R: São componentes que não possuem conteúdo de padrão, como <img>, <br>, etc. São nulos pois nao possuem uma tag de fechamento.
+    
+6 - Explique a diferença entre elementos de bloco e elementos inline em HTML. Dê exemplos de cada um.
+
+    R: Elementos de bloco ocupam toda a largura disponivel, começam em uma nova linha e tem margens, 
+
+        <div>: Usado como conteiner para juntar elementos
+        <h1>: usado para titulos
+        <p>: para paragrafos de texto
+        <header>: usado para estruturar o conteudo numa pagina
+
+        Elemento de inline ocupam apenas a largura suficiente para o seu conteudo
+
+        <a>: Usado para criar links
+        <img>: Usado para inserir imagens
+        <b>: usado para estilizar o texto.
+
+7 - Qual é a diferença entre as tags <div> e <span> em HTML? Quando você usaria uma em vez da outra?
+
+    R: <div> é um elemento de bloco e é usado para juntar conteudo, <spam> é um elemento inline e é usado para enfeitar ou juntar pequenas partes de texto ou imagens
+
+8 - Qual atributo HTML permite abrir um link em uma nova janela ou guia do navegador? Dê um exemplo de como usar esse atributo.
+
+    R: <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Youtube<a/>
+
+9 - Além do exemplo mencionado na aula, pesquise e liste pelo menos três meta informações que podem ser adicionadas a uma página HTML. Explique brevemente o propósito de cada uma delas.
+
+    R: <meta name="description" content="Descrição breve da página."> : é usado para fornecer uma breve descrição da pagina
+
+       <meta name="author" content="Nome do autor"> : é usado para indicar o autor da pagina
+
+       <meta name="viewport" content="width=device-width, initial-scale=1.0"> : é usado para controlar a visualização e escala da pagina
+
+       <meta name="robots" content="index, follow"> : é usada para fornecer instruções aos robos de busca
+
+10 - Além das tags <b> e <i>, que outras tags de formatação HTML você conhece? Liste pelo menos duas tags adicionais e explique como elas são usadas
+
+    R: <a>: Para criar hyperlinks e <img> para colocar imagens em uma pagina
+
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-3">
+        <title>Atividade Dia 18.10</title>
+    </head>
+    <body>
+        <h1>Formulario de contato</h1>
+        <form>
+            <label for="nm">Usuario:</label>
+            <input type="text" placeholder="Nome de usuario" id="nm" name="nm" required><br>
+            
+            <label for="emailu">Email:</label>
+            <input type="email" placeholder="usuario@gmail.com"  id="emailu" name="emailu" required><br>
+
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required><br>
+
+            <label for="gender">Genero:</label>
+            <select id="gender" name="gender">
+                <option value="male">Masculino</option>
+                <option value="female">Feminino</option>
+            </select>
+            <fieldset>
+                <legend>Voce gosta de abacaxi?</legend>
+                <label for="sim">sim</label>
+                <input type="radio" id="sim" name="escholha" value="sim" required><br>
+
+                <label for="nao">nao</label>
+                <input type="radio" id="nao" name="escholha" value="nao" required><br>
+
+                <label for="sim">talvez</label>
+                <input type="radio" id="talvez" name="escholha" value="talvez" required><br>
+            </fieldset>
+
+            <label for="texto">Area de texto</label>
+            <textarea id="texto" name="texto" rows="4" cols="50" placeholder="Escreva seu comentario"></textarea><br>
+            
+            <label for="homepage">Compartilhe a sua pagina:</label>
+            <input type="url" id="homepage" name="homepage"><br>
+
+            <input type="submit"><br>
+            <input type="reset">
+        </form>
+    </body>
+</html>
